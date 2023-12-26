@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\mengwei\\.ohos\\config\\auto_debug_Application_edu.mw.aipartner_160086000122439526.cer",
+          "storePassword": "0000001B6B45206947D78E4EF3CC674950AAF4E1C450208D913183CF49BF5746D9C5E2AFCDC448C07140A8",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B04E40B02795BE754767CC807EE82A6003BACA918F7AD59CDDF18D249FEE08FA5DED9F73155F0D4",
+          "profile": "C:\\Users\\mengwei\\.ohos\\config\\auto_debug_Application_edu.mw.aipartner_160086000122439526.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\mengwei\\.ohos\\config\\auto_debug_Application_edu.mw.aipartner_160086000122439526.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+    "document": {
+        "VisualVersion": "12",
+        "type": "ETS",
+        "custom": false,
+        "path": "/entry/src/main/supervisual/pages/Page"
+    },
+    "visualModel": {
+        "dataType": "VisualModel",
+        "value": {
+            "propertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "dynamicPropertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "mediaPropertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "dynamicMediaPropertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "property": {
+                "dataType": "Map",
+                "value": {
+                    "width": "100%",
+                    "height": "100%"
+                }
+            },
+            "dynamicProperty": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "children": [
+                {
+                    "dataType": "VisualModel",
+                    "value": {
+                        "propertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "dynamicPropertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "mediaPropertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "dynamicMediaPropertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "property": {
+                            "dataType": "Map",
+                            "value": {
+                                "width": "100%",
+                                "height": "100%",
+                                "justify-content-rc": "center",
+                                "border-width": "0vp",
+                                "position": "absolute"
+                            }
+                        },
+                        "dynamicProperty": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "children": [
+                            {
+                                "dataType": "VisualModel",
+                                "value": {
+                                    "propertyStorage": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "dynamicPropertyStorage": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "mediaPropertyStorage": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "dynamicMediaPropertyStorage": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "property": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "width": "150vp",
+                                            "height": "150vp",
+                                            "constraint-size-min-width": "0vp",
+                                            "left": "0vp",
+                                            "top": "118vp",
+                                            "background-image-size": "cover",
+                                            "align-content-stack": "start",
+                                            "position": "relative"
+                                        }
+                                    },
+                                    "dynamicProperty": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "dataType": "VisualModel",
+                                            "value": {
+                                                "propertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "dynamicPropertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "mediaPropertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "dynamicMediaPropertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "property": {
+                                                    "dataType": "Map",
+                                                    "value": {
+                                                        "height": "47vp",
+                                                        "width": "100%",
+                                                        "font-color": "black",
+                                                        "position": "absolute",
+                                                        "top": "0px",
+                                                        "left": "0px",
+                                                        "font-size": "19fp",
+                                                        "content": "布丁视频",
+                                                        "font-style": "normal",
+                                                        "text-align": "center",
+                                                        "font-weight": "bold"
+                                                    }
+                                                },
+                                                "dynamicProperty": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "children": [],
+                                                "id": "text1",
+                                                "type": "text"
+                                            }
+                                        },
+                                        {
+                                            "dataType": "VisualModel",
+                                            "value": {
+                                                "propertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "dynamicPropertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "mediaPropertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "dynamicMediaPropertyStorage": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "property": {
+                                                    "dataType": "Map",
+                                                    "value": {
+                                                        "width": "100%",
+                                                        "height": "100%",
+                                                        "src": "$r('app.media.login_wid')"
+                                                    }
+                                                },
+                                                "dynamicProperty": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "children": [],
+                                                "id": "image1",
+                                                "type": "image"
+                                            }
+                                        }
+                                    ],
+                                    "id": "stack1",
+                                    "type": "stack"
+                                }
+                            }
+                        ],
+                        "id": "column1",
+                        "type": "column"
+                    }
+                }
+            ],
+            "id": "wrapper",
+            "type": "column"
+        }
+    },
+    "formData": {
+        "data": {
+            "dataType": "Map",
+            "value": {}
+        },
+        "actions": {
+            "dataType": "Map",
+            "value": {}
+        }
+    },
+    "customData": {
+        "property": {
+            "dataType": "Map",
+            "value": {}
+        },
+        "event": {
+            "dataType": "Map",
+            "value": {}
+        }
+    }
+}

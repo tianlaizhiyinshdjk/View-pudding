@@ -1,0 +1,19 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Auth",
+    "pages/CloudDb/CloudDb",
+    "pages/CloudFunction",
+    "pages/CloudStorage",
+    "pages/CloudDb/DbInsert",
+    "pages/HomePage",
+    "pages/Home",
+    "pages/LoginPage",
+    "pages/WelcomePage",
+    "pages/Page",
+    "pages/LocalVideoPlay",
+    "pages/WebVideoPage",
+    "pages/History",
+    "pages/Mecollect"
+  ]
+}
